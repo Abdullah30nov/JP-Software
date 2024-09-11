@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #017a71 !important;
+  --text-color: #d18d2c !important;
+  --box-shadow: #f9da64 !important;
+  --box-shadow2: #005e57 !important;
+  --dark-color:black !important;
+  --Light-color:white !important;
+  --text-left:left;
+  --text-center:center;
+  --text-right:right;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

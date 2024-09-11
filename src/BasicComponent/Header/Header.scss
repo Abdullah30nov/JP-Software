@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: var(--box-shadow2);
+    color: var(--Light-color);
+    .container{
+        color: var(--Light-color);
+        .color{
+            color: var(--Light-color);
+        }
+        .text-light{
+            color: var(--Light-color) !important;
+        }
+    }
+}
+.navbar {
+    background-color: var(--box-shadow2)
+  }
+  
+  .color {
+    color: white !important; // Ensure the color is applied with higher specificity
+  }
+  
+  .navbar-nav .nav-link, .navbar-nav .nav-item {
+    color: white !important; // Apply to all text in nav items
+  }
+  
